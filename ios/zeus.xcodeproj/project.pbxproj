@@ -24,6 +24,7 @@
 		22D2AE20933A4FB8BC47A730 /* Eye Off.svg in Resources */ = {isa = PBXBuildFile; fileRef = 28FAC11AA8E5479C81BE8DDA /* Eye Off.svg */; };
 		2399885DFDAB4C90B7232496 /* lightning1.json in Resources */ = {isa = PBXBuildFile; fileRef = 44AA4B9E77FB4B7E92D6E495 /* lightning1.json */; };
 		243243DF5818489D84FBD3DA /* Search.svg in Resources */ = {isa = PBXBuildFile; fileRef = 03529F2B35584738B9EFDE77 /* Search.svg */; };
+		2573417B2BA0E6D4000240ED /* TapcardsModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 257341782BA0E6D4000240ED /* TapcardsModule.mm */; };
 		2B701B9D101047A89EC4CDB6 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CEE7DB9174923BAB26C47 /* 4.png */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -356,6 +357,8 @@
 		1D960E4F840145B3BB114CC5 /* Key.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Key.svg; path = ../assets/images/SVG/Key.svg; sourceTree = "<group>"; };
 		1F20C8EE28BE46F6B99E5ED3 /* Alert.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Alert.svg; path = ../assets/images/SVG/Alert.svg; sourceTree = "<group>"; };
 		226FAAEEA94A478A945F9A57 /* Menu.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Menu.svg; path = ../assets/images/SVG/Menu.svg; sourceTree = "<group>"; };
+		257341782BA0E6D4000240ED /* TapcardsModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TapcardsModule.mm; sourceTree = "<group>"; };
+		2573417C2BA0E70C000240ED /* TapcardsModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapcardsModule.h; sourceTree = "<group>"; };
 		259C6F30DC5D40FF9E5DF839 /* Sweep.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Sweep.svg; path = ../assets/images/SVG/Sweep.svg; sourceTree = "<group>"; };
 		259ED6E1C36A4BB38A5BFB8B /* Temple.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Temple.svg; path = ../assets/images/SVG/Temple.svg; sourceTree = "<group>"; };
 		289689C09C974491A933737A /* Channels.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Channels.svg; path = ../assets/images/SVG/Channels.svg; sourceTree = "<group>"; };
@@ -695,6 +698,8 @@
 		74B637782A5A350A00750202 /* LncMobile */ = {
 			isa = PBXGroup;
 			children = (
+				2573417C2BA0E70C000240ED /* TapcardsModule.h */,
+				257341782BA0E6D4000240ED /* TapcardsModule.mm */,
 				74B637792A5A350A00750202 /* LncModule.mm */,
 				74B6377A2A5A350A00750202 /* StreamingCallback.mm */,
 				74B6377B2A5A350A00750202 /* StreamingCallback.h */,
@@ -1677,6 +1682,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				745388482A54C2B6000927CE /* LndMobile.swift in Sources */,
+				2573417B2BA0E6D4000240ED /* TapcardsModule.mm in Sources */,
 				74B637832A5A350B00750202 /* StreamingCallback.mm in Sources */,
 				745388492A54C2B6000927CE /* walletunlocker.pb.swift in Sources */,
 				7453884A2A54C2B6000927CE /* LndMobileTools.m in Sources */,
