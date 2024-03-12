@@ -25,6 +25,7 @@
 		2399885DFDAB4C90B7232496 /* lightning1.json in Resources */ = {isa = PBXBuildFile; fileRef = 44AA4B9E77FB4B7E92D6E495 /* lightning1.json */; };
 		243243DF5818489D84FBD3DA /* Search.svg in Resources */ = {isa = PBXBuildFile; fileRef = 03529F2B35584738B9EFDE77 /* Search.svg */; };
 		2573417B2BA0E6D4000240ED /* TapcardsModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 257341782BA0E6D4000240ED /* TapcardsModule.mm */; };
+		257341A12BA0FDB8000240ED /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A116702A55DEE600F7078C /* libresolv.tbd */; };
 		2B701B9D101047A89EC4CDB6 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CEE7DB9174923BAB26C47 /* 4.png */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -359,6 +360,7 @@
 		226FAAEEA94A478A945F9A57 /* Menu.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Menu.svg; path = ../assets/images/SVG/Menu.svg; sourceTree = "<group>"; };
 		257341782BA0E6D4000240ED /* TapcardsModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TapcardsModule.mm; sourceTree = "<group>"; };
 		2573417C2BA0E70C000240ED /* TapcardsModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapcardsModule.h; sourceTree = "<group>"; };
+		2573419E2BA0FDAE000240ED /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		259C6F30DC5D40FF9E5DF839 /* Sweep.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Sweep.svg; path = ../assets/images/SVG/Sweep.svg; sourceTree = "<group>"; };
 		259ED6E1C36A4BB38A5BFB8B /* Temple.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Temple.svg; path = ../assets/images/SVG/Temple.svg; sourceTree = "<group>"; };
 		289689C09C974491A933737A /* Channels.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Channels.svg; path = ../assets/images/SVG/Channels.svg; sourceTree = "<group>"; };
@@ -536,6 +538,7 @@
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				74B637872A5A35B600750202 /* Lndmobile.xcframework in Frameworks */,
 				120C1A21E0566E9107515C30 /* libPods-zeus.a in Frameworks */,
+				257341A12BA0FDB8000240ED /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +662,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2573419E2BA0FDAE000240ED /* libresolv.9.tbd */,
 				74A116702A55DEE600F7078C /* libresolv.tbd */,
 				74B637862A5A35B600750202 /* Lndmobile.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
