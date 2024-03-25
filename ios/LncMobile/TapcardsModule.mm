@@ -15,7 +15,7 @@ RCT_EXPORT_METHOD(statusRequest:(NSString *)aString
 {
   
   NSError *error;
-  NSData* status = LndmobileSatscardStatus(&error);
+  NSData* status = LndmobileTapcardsStatus(&error);
   if (status) {
       resolve(status);
   } else if (error) {
@@ -23,6 +23,21 @@ RCT_EXPORT_METHOD(statusRequest:(NSString *)aString
   }
 }
  
+
+RCT_EXPORT_METHOD(isoAppletSelectRequest:(NSString *)aString
+                   resolver:(RCTPromiseResolveBlock)resolve
+                   rejecter:(RCTPromiseRejectBlock)reject)
+{
+  
+  NSError *error;
+  NSData* status = LndmobileTapcardsISOAppletSelectRequest(&error);
+  if (status) {
+      resolve(status);
+  } else if (error) {
+      reject(@"expiry_error", @"error thrown", error);
+  }
+}
+
 
 // Don't compile this code when we build for the old architecture.
 #ifdef RCT_NEW_ARCH_ENABLED
